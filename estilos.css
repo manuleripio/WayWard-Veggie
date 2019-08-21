@@ -1,0 +1,184 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #defdce; 
+    margin: 0;
+    padding: 5px 0;
+    text-align: right;
+    
+}
+
+nav ul li {
+    display: inline;
+  }
+
+nav ul li a {
+    padding: 10px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;  
+    border-radius: 14px;
+}
+
+/* hover: quando o usuário passa o mouse sobre o ítem */
+nav ul li a:hover {
+background-color: #a8e4a6;
+color: #000000;
+border-bottom: 3px solid #58bd55;
+
+}
+
+article  h2 { 
+    color: #58bd55;
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header, article { 
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    /*centraliza a tabela*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+th, td {
+  padding: 10px;
+}
+
+thead tr {
+border-bottom: solid 3px #58bd55;
+}
+
+tbody tr {
+  transition: all linear 0.2s;
+}
+
+tbody tr:hover {
+  background-color: #defdce;
+}
+
+tfoot {
+  background-color: #58bd55;
+  color: beige;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.prato {
+  display: block;
+  width: 100%;
+}
+
+.prato .img_prato {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Impact;
+}
+
+h2{ 
+  text-align: center;
+}
+
+.box_formulario {
+  margin-top: 30px;
+}
+
+article > p {
+    line-height: 150%;
+    text-align: justify;
+    padding-right: 70px;
+    padding-left: 390px;
+}
+
+table tbody tr td:last-child {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+    color: #58bd55;
+    padding: 10px 15px;
+}
+
+table tbody tr td:first-child {
+    width: 170px;
+}
+
+.ingredientes {
+    line-height: 160%;
+    word-spacing: 3px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 110px;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.endereco_fim {
+    text-align: right;
+    padding-right: 30px;
+}
+
+#logo_topo {
+    height: 52px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 30px;
+}
+
+#logo_topo img {
+    padding: 5px 0;
+    float: left;
+    height: 42px;
+    width: auto;
+}
+
+header {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+header img {
+  width: 235px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  float: none;
+}

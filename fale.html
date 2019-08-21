@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WayWard Veggie</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="logo_topo"><img src="logo.png" alt="WayWard Veggie"/></li>
+            <li>
+                <a href="index.html">Quem somos</a>
+            </li>
+            <li>
+                <a href="cardapio.html">Cardápio</a>
+            </li>
+            <li>
+                <a href="fale.html">Fale Conosco</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+       <img src="logo.png" alt="WayWard Veggie"/>
+    </header>
+    <article>
+        <h2>Fale Conosco!</h2>
+
+        <fieldset>
+            <legend>Como podemos lhe ajudar?</legend>
+            <form>
+
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" autofocus required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="telefone" id="senha" required>
+                </p>
+                <p>
+                    <label for="obs"> Mensagem: </label>
+                    <textarea cols="30" rows="5" name="obs" id="obs"></textarea>
+                                    </p>
+                <div class="box_formulario"> 
+                    <label for="turno">Assunto:</label>
+                    <select id="turno">
+                        <option value="v">Vagas</option>
+                        <option value="r">Reclamações</option>
+                        <option value="s">Sugestões</option>
+                        <option value="o">Outros</option>
+                        </select>
+                </div>
+                <div class="box_formulario">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+
+                </div>
+
+            </form>
+        </fieldset>
+
+
+
+    </article>
+    <footer>
+        <p class="endereco_fim"> WayWard Veggie - Av. Bento Gonçalves, 3333 - Pelotas</p>
+    </footer>
+</body>
+
+</html>
